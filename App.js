@@ -63,15 +63,15 @@ export default class App extends Component {
         {images}
         <Text style={styles.footerText}>We'll call you back!</Text>
         <Text style={styles.contactsText}>
-          +38 (099) 123-45-67
-          instagram/dolce-vita.com
-          facebook/dolce-vita.com
-          dolce-vita@gmail.com
+          +38 (099) 123-45-67{'\n'}
+          instagram/dolce-vita.com{'\n'}
+          facebook/dolce-vita.com{'\n'}
+          dolce-vita@gmail.com{'\n'}
           dolce-vita.com
         </Text>
         <Text style={styles.copyText}>
           All rights reserved.{'\n'}
-          Copyright &copy; 2021 by Vitalii Butovych
+          Copyright &copy; 2021
         </Text>
         {/* <Modal style={styles.modal} animationType={'fade'} transparent={true} 
                 visible={this.state.modalVisible} onRequestClose={() => {}}>
@@ -137,7 +137,8 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: 'pink',
     textAlign: 'center',
-    marginBottom: 40
+    marginBottom: 40,
+    marginLeft: 110
   }
 });
 
